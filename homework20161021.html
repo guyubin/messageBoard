@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>homework20161021</title>
+        <!-- <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css"> -->
+        <script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.js"></script>
+    </head>
+    <style media="screen">
+    body {
+        width: 70%;
+        margin: 10px auto;
+    }
+    textarea.gu-input-area {
+        width: 100%;
+        resize: none;
+        border-radius: 10px;
+        border-color: orange;
+    }
+    .gu-note {
+        position: relative;
+        left: 59%;
+        margin: 20px 0px;
+    }
+    span.gu-note-char {
+        font-family: fantasy;
+    }
+    span.gu-note-num {
+        color: red;
+    }
+    button.gu-note-button {
+        width: 86px;
+        height: 45px;
+        background: orange;
+        border-radius: 10px;
+    }
+    .gu-output-item {
+        margin: 15px;
+        position: relative;
+    }
+    img {
+        width: 80px;
+        height: 120px;
+    }
+    .gu-output-img {
+        display: inline-block;
+    }
+    .gu-output-text {
+        display: inline-block;
+        vertical-align: top;
+        height: 100%;
+    }
+    .gu-output-text-date {
+        position: absolute;
+        bottom: 12px;
+        font-family: cursive;
+        color: gray;
+        font-size: 5px;
+    }
+    hr {
+        border: 1px solid red;
+    }
+    .gu-output-text-string {
+        font-size: 20px;
+        font-family: cursive;
+    }
+    </style>
+    <body>
+        <div class="gu-input">
+            <textarea class="gu-input-area" name="name" rows="8" cols="40"></textarea>
+        </div>
+
+        <div class="gu-note">
+            <span class="gu-note-char">还能输入<span class="gu-note-num">140</span>个字</span>
+            <button class="gu-note-button" type="button" name="button">提交</button>
+        </div>
+
+        <hr />
+
+        <div class="gu-output">
+        <!--    <div class="gu-output-item">
+                <div class="gu-output-img">
+                    <img src="avatar.jpg" alt="" />
+                </div>
+                <div class="gu-output-text">
+                    <div class="gu-output-text-string">
+                        ${string}
+                    </div>
+                    <div class="gu-output-text-date">
+                        ${date}
+                    </div>
+                </div>
+                <hr />
+            </div> -->
+        </div>
+
+
+
+        <script type="text/javascript" src="homework20161021.js"></script>
+    </body>
+</html>
